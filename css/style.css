@@ -382,15 +382,14 @@ footer p {
         justify-content: center;
         align-items: center;
         text-align: center;
-        margin-top: 0.5rem;
+        margin-top: 15rem;
     }
 
     .showcase::after {
-        content: '';
         position: absolute;
         top: 0;
         left: 0;
-        width: 100%;
+        width: 90px;
         height: 90px;
         z-index: 1;
         background-color: rgba(0, 0, 0, 0.6);
@@ -398,23 +397,23 @@ footer p {
 
     .showcase-content h1 {
         font-weight: 700;
-        font-size: 3rem;
+        font-size: 1.5rem;
         line-height: 1;
-        margin: 0 0 2rem;
+        margin: 0 0 15rem;
     }
 
     .showcase-content p {
         font-weight: 400;
-        font-size: 1.9rem;
+        font-size: 1rem;
         line-height: 1;
-        margin: 0 0 2rem;
+        margin: 0 0 15rem;
     }
 
     .email-box {
-        width: 400px;
-        height: 50px;
+        width: 75px;
+        height: 20px;
         margin-bottom: 8px;
-        font-size: 14px;
+        font-size: 8px;
         padding-left: 8px;
     }
 
